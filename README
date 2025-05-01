@@ -1,0 +1,54 @@
+This is Meltie's Clicker Picker.
+
+The Browned Butter Babe (BBB) mascot is Braunhilda von Meltington. We call her
+Meltie for short. She is a melting pat of butter, and she is probably the most
+adorable thing you have seen all day.
+
+Last year, Meltie ran off with BBB's R&D budget and created this clicker
+picker in order to help customers pick among the delicious treats sold by BBB.
+
+The clicker picker combines the best in modern technical buzzwords, including
+quantum computing, blockchain, and artificial inteligence. Meltie designed a
+sophisticated large sugar model (called Sucrose) to look deeply into your soul
+and provide a customized and personalized recommendation for a sweet treat.
+When training the model, the waste heat is used the bake the BBB treats.
+
+Because of Meltie's tireless work, we are no longer a typical run-of-the-mill
+bakery...we are a tech company. :P
+
+# Tech used
+
+* Adafruit Circuit Playground Express (CPE)
+* neopixel led strip
+* solder
+* tears of a site reliability engineer
+
+# Use of the code
+
+The main code is located in melties_clicker_picker.ino.
+
+You must define the following constants near the top of the code:
+* NEO_PIXEL_PIN - the number of the neopixel gpio pin
+* PIXEL_COUNT - the number of pixels on your neopixel strip
+* NUM_CHOICES - the number of choices that are available
+
+In general, Meltie modifies the NUM_CHOICES constant and recompiles and uploads
+the resulting firmware to a CPE via the Arduino IDE.
+
+# Arduino IDE requirements
+
+This software requires the installation of board support for the CPE. This is
+available via the board manager in the Arduino IDE. The package is named
+"Arduino SAMD Boards".
+
+The following Arduino libraries need to be installed from the Arduino IDE
+library manager also:
+* Adafruit Circuit Playground
+* Adafruit NeoPixel
+* React_Generic
+
+# Contributing
+
+We could always use help with contributions, including code changes and bug
+reports. We use github to coordinate contributions. Here is a link:
+https://github.com/ymatyt/melties_clicker_picker
